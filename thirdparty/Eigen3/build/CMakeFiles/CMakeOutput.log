@@ -1,0 +1,1573 @@
+The system is: Linux - 5.4.0-84-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d655/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d655.dir/build.make CMakeFiles/cmTC_4d655.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d655.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4d655.dir/testCCompiler.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4d655
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d655.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4d655.dir/testCCompiler.c.o  -o cmTC_4d655 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98f8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98f8d.dir/build.make CMakeFiles/cmTC_98f8d.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_98f8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f8d.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o  -o cmTC_98f8d 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98f8d' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN1nlVl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98f8d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98f8d' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98f8d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98f8d.dir/build.make CMakeFiles/cmTC_98f8d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_98f8d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f8d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o  -o cmTC_98f8d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98f8d' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN1nlVl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98f8d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccN1nlVl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_98f8d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_98f8d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3c1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3c1a.dir/build.make CMakeFiles/cmTC_b3c1a.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3c1a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b3c1a.dir/feature_tests.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b3c1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c1a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b3c1a.dir/feature_tests.c.o  -o cmTC_b3c1a 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_352c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_352c9.dir/build.make CMakeFiles/cmTC_352c9.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_352c9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_352c9.dir/feature_tests.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_352c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_352c9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_352c9.dir/feature_tests.c.o  -o cmTC_352c9 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86997/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86997.dir/build.make CMakeFiles/cmTC_86997.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86997.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_86997.dir/feature_tests.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_86997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86997.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_86997.dir/feature_tests.c.o  -o cmTC_86997 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cce06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cce06.dir/build.make CMakeFiles/cmTC_cce06.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cce06.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cce06.dir/testCXXCompiler.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cce06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce06.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cce06.dir/testCXXCompiler.cxx.o  -o cmTC_cce06 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5708/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5708.dir/build.make CMakeFiles/cmTC_e5708.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e5708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5708.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e5708 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5708' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgXICH8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e5708 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5708' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e5708/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e5708.dir/build.make CMakeFiles/cmTC_e5708.dir/build]
+  ignore line: [make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e5708]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5708.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e5708 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5708' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgXICH8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e5708 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgXICH8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e5708] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_e5708.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c942a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c942a.dir/build.make CMakeFiles/cmTC_c942a.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c942a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c942a.dir/feature_tests.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c942a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c942a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c942a.dir/feature_tests.cxx.o  -o cmTC_c942a 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37f5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37f5a.dir/build.make CMakeFiles/cmTC_37f5a.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37f5a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_37f5a.dir/feature_tests.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_37f5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f5a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_37f5a.dir/feature_tests.cxx.o  -o cmTC_37f5a 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9de1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9de1e.dir/build.make CMakeFiles/cmTC_9de1e.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9de1e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_9de1e.dir/feature_tests.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9de1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9de1e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9de1e.dir/feature_tests.cxx.o  -o cmTC_9de1e 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89e6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89e6a.dir/build.make CMakeFiles/cmTC_89e6a.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89e6a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_89e6a.dir/feature_tests.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_89e6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89e6a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_89e6a.dir/feature_tests.cxx.o  -o cmTC_89e6a 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_198b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_198b5.dir/build.make CMakeFiles/cmTC_198b5.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_198b5.dir/src.cxx.o
+/usr/bin/c++    -Dstandard_math_library_linked_to_automatically   -std=c++14 -o CMakeFiles/cmTC_198b5.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_198b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_198b5.dir/link.txt --verbose=1
+/usr/bin/c++   -Dstandard_math_library_linked_to_automatically    CMakeFiles/cmTC_198b5.dir/src.cxx.o  -o cmTC_198b5 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c516d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c516d.dir/build.make CMakeFiles/cmTC_c516d.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c516d.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_WERROR   -Werror -std=c++14 -o CMakeFiles/cmTC_c516d.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c516d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c516d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_WERROR    CMakeFiles/cmTC_c516d.dir/src.cxx.o  -o cmTC_c516d 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_895fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_895fc.dir/build.make CMakeFiles/cmTC_895fc.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_895fc.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_pedantic -Werror   -pedantic -std=c++14 -o CMakeFiles/cmTC_895fc.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_895fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_895fc.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_pedantic -Werror    CMakeFiles/cmTC_895fc.dir/src.cxx.o  -o cmTC_895fc 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cea5d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cea5d.dir/build.make CMakeFiles/cmTC_cea5d.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cea5d.dir/src.cxx.o
+/usr/bin/c++    -pedantic -DCOMPILER_SUPPORT_Wall -Werror   -Wall -std=c++14 -o CMakeFiles/cmTC_cea5d.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cea5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cea5d.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -DCOMPILER_SUPPORT_Wall -Werror    CMakeFiles/cmTC_cea5d.dir/src.cxx.o  -o cmTC_cea5d 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53a0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53a0d.dir/build.make CMakeFiles/cmTC_53a0d.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53a0d.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror   -Wextra -std=c++14 -o CMakeFiles/cmTC_53a0d.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_53a0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53a0d.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror    CMakeFiles/cmTC_53a0d.dir/src.cxx.o  -o cmTC_53a0d 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dc39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dc39.dir/build.make CMakeFiles/cmTC_2dc39.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2dc39.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror   -Wundef -std=c++14 -o CMakeFiles/cmTC_2dc39.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2dc39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dc39.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror    CMakeFiles/cmTC_2dc39.dir/src.cxx.o  -o cmTC_2dc39 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e828e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e828e.dir/build.make CMakeFiles/cmTC_e828e.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e828e.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror   -Wcast-align -std=c++14 -o CMakeFiles/cmTC_e828e.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e828e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e828e.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror    CMakeFiles/cmTC_e828e.dir/src.cxx.o  -o cmTC_e828e 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0b67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0b67.dir/build.make CMakeFiles/cmTC_b0b67.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0b67.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror   -Wchar-subscripts -std=c++14 -o CMakeFiles/cmTC_b0b67.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b0b67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0b67.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror    CMakeFiles/cmTC_b0b67.dir/src.cxx.o  -o cmTC_b0b67 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f713c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f713c.dir/build.make CMakeFiles/cmTC_f713c.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f713c.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror   -Wnon-virtual-dtor -std=c++14 -o CMakeFiles/cmTC_f713c.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f713c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f713c.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror    CMakeFiles/cmTC_f713c.dir/src.cxx.o  -o cmTC_f713c 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1449a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1449a.dir/build.make CMakeFiles/cmTC_1449a.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1449a.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror   -Wunused-local-typedefs -std=c++14 -o CMakeFiles/cmTC_1449a.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1449a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1449a.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror    CMakeFiles/cmTC_1449a.dir/src.cxx.o  -o cmTC_1449a 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e5c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e5c8.dir/build.make CMakeFiles/cmTC_4e5c8.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e5c8.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror   -Wpointer-arith -std=c++14 -o CMakeFiles/cmTC_4e5c8.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4e5c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e5c8.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror    CMakeFiles/cmTC_4e5c8.dir/src.cxx.o  -o cmTC_4e5c8 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34b82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34b82.dir/build.make CMakeFiles/cmTC_34b82.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34b82.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror   -Wwrite-strings -std=c++14 -o CMakeFiles/cmTC_34b82.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_34b82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34b82.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror    CMakeFiles/cmTC_34b82.dir/src.cxx.o  -o cmTC_34b82 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bed29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bed29.dir/build.make CMakeFiles/cmTC_bed29.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bed29.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror   -Wformat-security -std=c++14 -o CMakeFiles/cmTC_bed29.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bed29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bed29.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror    CMakeFiles/cmTC_bed29.dir/src.cxx.o  -o cmTC_bed29 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de802/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de802.dir/build.make CMakeFiles/cmTC_de802.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de802.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror   -Wlogical-op -std=c++14 -o CMakeFiles/cmTC_de802.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de802
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de802.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror    CMakeFiles/cmTC_de802.dir/src.cxx.o  -o cmTC_de802 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87365/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87365.dir/build.make CMakeFiles/cmTC_87365.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87365.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror   -Wdouble-promotion -std=c++14 -o CMakeFiles/cmTC_87365.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_87365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87365.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror    CMakeFiles/cmTC_87365.dir/src.cxx.o  -o cmTC_87365 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b47ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b47ee.dir/build.make CMakeFiles/cmTC_b47ee.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b47ee.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wshadow -Werror   -Wshadow -std=c++14 -o CMakeFiles/cmTC_b47ee.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b47ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b47ee.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wshadow -Werror    CMakeFiles/cmTC_b47ee.dir/src.cxx.o  -o cmTC_b47ee 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_487e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_487e7.dir/build.make CMakeFiles/cmTC_487e7.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_487e7.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -std=c++14 -o CMakeFiles/cmTC_487e7.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_487e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_487e7.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror    CMakeFiles/cmTC_487e7.dir/src.cxx.o  -o cmTC_487e7 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13456/fast"
+/usr/bin/make -f CMakeFiles/cmTC_13456.dir/build.make CMakeFiles/cmTC_13456.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13456.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror   -Wno-variadic-macros -std=c++14 -o CMakeFiles/cmTC_13456.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_13456
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13456.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror    CMakeFiles/cmTC_13456.dir/src.cxx.o  -o cmTC_13456 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32827/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32827.dir/build.make CMakeFiles/cmTC_32827.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32827.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror   -Wno-long-long -std=c++14 -o CMakeFiles/cmTC_32827.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32827
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32827.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror    CMakeFiles/cmTC_32827.dir/src.cxx.o  -o cmTC_32827 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_807be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_807be.dir/build.make CMakeFiles/cmTC_807be.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_807be.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror   -fno-check-new -std=c++14 -o CMakeFiles/cmTC_807be.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_807be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_807be.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror    CMakeFiles/cmTC_807be.dir/src.cxx.o  -o cmTC_807be 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9665/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9665.dir/build.make CMakeFiles/cmTC_c9665.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9665.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror   -fno-common -std=c++14 -o CMakeFiles/cmTC_c9665.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c9665
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9665.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror    CMakeFiles/cmTC_c9665.dir/src.cxx.o  -o cmTC_c9665 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d65d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d65d.dir/build.make CMakeFiles/cmTC_9d65d.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d65d.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror   -fstrict-aliasing -std=c++14 -o CMakeFiles/cmTC_9d65d.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d65d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d65d.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror    CMakeFiles/cmTC_9d65d.dir/src.cxx.o  -o cmTC_9d65d 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7523f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7523f.dir/build.make CMakeFiles/cmTC_7523f.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7523f.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_OPENMP   -fopenmp -std=c++14 -o CMakeFiles/cmTC_7523f.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7523f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7523f.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_OPENMP    CMakeFiles/cmTC_7523f.dir/src.cxx.o  -o cmTC_7523f 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Looking for a Fortran compiler passed with the following output:
+-- The Fortran compiler identification is GNU 7.5.0
+-- Check for working Fortran compiler: /usr/bin/f95
+-- Check for working Fortran compiler: /usr/bin/f95  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /usr/bin/f95 supports Fortran 90
+-- Checking whether /usr/bin/f95 supports Fortran 90 -- yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/hello_cmake/thirdparty/Eigen3/build/test/CMakeFiles/CheckFortran
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/f95 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/f95 -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccMyFHFu.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/7/finclude -o /tmp/ccDookbC.s
+GNU Fortran (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccEhIrLJ.o /tmp/ccDookbC.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCXHPmR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/ccEhIrLJ.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/3.10.2/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63f23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63f23.dir/build.make CMakeFiles/cmTC_63f23.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_63f23.dir/testFortranCompiler.f.o
+/usr/bin/f95    -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_63f23.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_63f23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63f23.dir/link.txt --verbose=1
+/usr/bin/f95      CMakeFiles/cmTC_63f23.dir/testFortranCompiler.f.o  -o cmTC_63f23 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2d22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2d22.dir/build.make CMakeFiles/cmTC_d2d22.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/f95    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_d2d22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d22.dir/link.txt --verbose=1
+/usr/bin/f95   -v   CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o  -o cmTC_d2d22 
+Driving: /usr/bin/f95 -v CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o -o cmTC_d2d22 -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2d22' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2d22' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccb6w7V.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d2d22 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2d22' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d2d22/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d2d22.dir/build.make CMakeFiles/cmTC_d2d22.dir/build]
+  ignore line: [make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/f95    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_d2d22]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d22.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/f95   -v   CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o  -o cmTC_d2d22 ]
+  ignore line: [Driving: /usr/bin/f95 -v CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o -o cmTC_d2d22 -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/f95]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2d22' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2d22' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccb6w7V.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d2d22 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccb6w7V.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d2d22] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_d2d22.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f331c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f331c.dir/build.make CMakeFiles/cmTC_f331c.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_f331c.dir/testFortranCompilerF90.f90.o
+/usr/bin/f95    -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_f331c.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_f331c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f331c.dir/link.txt --verbose=1
+/usr/bin/f95      CMakeFiles/cmTC_f331c.dir/testFortranCompilerF90.f90.o  -o cmTC_f331c 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test SUPERLU_HAS_GLOBAL_MEM_USAGE_T succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57ec2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57ec2.dir/build.make CMakeFiles/cmTC_57ec2.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57ec2.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/superlu  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DSUPERLU_HAS_GLOBAL_MEM_USAGE_T   -std=c++14 -o CMakeFiles/cmTC_57ec2.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx:6:15: warning: unused variable ‘mem’ [-Wunused-variable]
+   mem_usage_t mem;
+               ^~~
+Linking CXX executable cmTC_57ec2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57ec2.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DSUPERLU_HAS_GLOBAL_MEM_USAGE_T    CMakeFiles/cmTC_57ec2.dir/src.cxx.o  -o cmTC_57ec2 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+typedef int int_t;
+#include <supermatrix.h>
+#include <slu_util.h>
+int main() {
+  mem_usage_t mem;
+  return 0;
+}
+Performing C++ SOURCE FILE Test SUPERLU_HAS_CLEAN_ENUMS succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa96f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa96f.dir/build.make CMakeFiles/cmTC_aa96f.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa96f.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/superlu  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DSUPERLU_HAS_CLEAN_ENUMS   -std=c++14 -o CMakeFiles/cmTC_aa96f.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa96f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa96f.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DSUPERLU_HAS_CLEAN_ENUMS    CMakeFiles/cmTC_aa96f.dir/src.cxx.o  -o cmTC_aa96f 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+typedef int int_t;
+#include <supermatrix.h>
+#include <superlu_enum_consts.h>
+int main() {
+  return SLU_SINGLE;
+}
+Performing C++ SOURCE FILE Test SUPERLU_HAS_GLOBALLU_T succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f81d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f81d1.dir/build.make CMakeFiles/cmTC_f81d1.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f81d1.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/superlu  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DSUPERLU_HAS_GLOBALLU_T   -std=c++14 -o CMakeFiles/cmTC_f81d1.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx:7:14: warning: unused variable ‘glu’ [-Wunused-variable]
+   GlobalLU_t glu;
+              ^~~
+Linking CXX executable cmTC_f81d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f81d1.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DSUPERLU_HAS_GLOBALLU_T    CMakeFiles/cmTC_f81d1.dir/src.cxx.o  -o cmTC_f81d1 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+typedef int int_t;
+#include <supermatrix.h>
+#include <slu_util.h>
+int main(void)
+{
+  GlobalLU_t glu;
+  return 0;
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22923/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22923.dir/build.make CMakeFiles/cmTC_22923.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22923.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_22923.dir/CheckIncludeFile.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_22923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22923.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_22923.dir/CheckIncludeFile.c.o  -o cmTC_22923 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_946fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_946fd.dir/build.make CMakeFiles/cmTC_946fd.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_946fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_946fd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_946fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_946fd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_946fd.dir/CheckFunctionExists.c.o  -o cmTC_946fd -lpthread 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_HWLOC_PARENT_MEMBER succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c142/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c142.dir/build.make CMakeFiles/cmTC_2c142.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c142.dir/src.c.o
+/usr/bin/cc   -DHAVE_HWLOC_PARENT_MEMBER   -o CMakeFiles/cmTC_2c142.dir/src.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2c142
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c142.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_HWLOC_PARENT_MEMBER    CMakeFiles/cmTC_2c142.dir/src.c.o  -o cmTC_2c142 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <hwloc.h>
+
+int main()
+{
+   (void)sizeof(((struct hwloc_obj *)0)->parent);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_HWLOC_CACHE_ATTR succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebb53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebb53.dir/build.make CMakeFiles/cmTC_ebb53.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebb53.dir/src.c.o
+/usr/bin/cc   -DHAVE_HWLOC_CACHE_ATTR   -o CMakeFiles/cmTC_ebb53.dir/src.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ebb53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebb53.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_HWLOC_CACHE_ATTR    CMakeFiles/cmTC_ebb53.dir/src.c.o  -o cmTC_ebb53 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <hwloc.h>
+
+int main()
+{
+   (void)sizeof(((struct hwloc_cache_attr_s *)0)->size);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_HWLOC_OBJ_PU succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2012b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2012b.dir/build.make CMakeFiles/cmTC_2012b.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2012b.dir/src.c.o
+/usr/bin/cc   -DHAVE_HWLOC_OBJ_PU   -o CMakeFiles/cmTC_2012b.dir/src.c.o   -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2012b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2012b.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_HWLOC_OBJ_PU    CMakeFiles/cmTC_2012b.dir/src.c.o  -o cmTC_2012b 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <hwloc.h>
+	    int main(void) { hwloc_obj_t o; o->type = HWLOC_OBJ_PU; return 0;}
+Determining if the function hwloc_bitmap_free exists in the hwloc passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95797/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95797.dir/build.make CMakeFiles/cmTC_95797.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95797.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=hwloc_bitmap_free   -o CMakeFiles/cmTC_95797.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95797.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=hwloc_bitmap_free    CMakeFiles/cmTC_95797.dir/CheckFunctionExists.c.o  -o cmTC_95797 -lhwloc 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the Fortran dgemm exists passed with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02925/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02925.dir/build.make CMakeFiles/cmTC_02925.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_02925.dir/testFortranCompiler.f.o
+/usr/bin/f95    -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_02925.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_02925
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02925.dir/link.txt --verbose=1
+/usr/bin/f95      CMakeFiles/cmTC_02925.dir/testFortranCompiler.f.o  -o cmTC_02925 /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_FASTMATH succeeded with the following output:
+Change Dir: /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9a5d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9a5d.dir/build.make CMakeFiles/cmTC_f9a5d.dir/build
+make[1]: Entering directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9a5d.dir/src.cxx.o
+/usr/bin/c++    -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_FASTMATH   -ffast-math -std=c++14 -o CMakeFiles/cmTC_f9a5d.dir/src.cxx.o -c /home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f9a5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a5d.dir/link.txt --verbose=1
+/usr/bin/c++   -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_FASTMATH    CMakeFiles/cmTC_f9a5d.dir/src.cxx.o  -o cmTC_f9a5d 
+make[1]: Leaving directory '/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/f95 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/f95 -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/cck9YxCi.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/7/finclude -o /tmp/ccOPPoPz.s
+GNU Fortran (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccTWpL7Q.o /tmp/ccOPPoPz.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUIGrr8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/ccTWpL7Q.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/3.10.2/CompilerIdFortran/a.out"
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/f95 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/f95 -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccA819Go.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/7/finclude -o /tmp/ccFuZ20V.s
+GNU Fortran (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccOAx7ew.o /tmp/ccFuZ20V.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr7fIx6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/ccOAx7ew.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/3.10.2/CompilerIdFortran/a.out"
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/f95 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/f95 -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccAEOeZ2.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/7/finclude -o /tmp/ccA66hqK.s
+GNU Fortran (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccIjCuPu.o /tmp/ccA66hqK.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH2GQif.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/ccIjCuPu.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/user/hello_cmake/thirdparty/Eigen3/build/CMakeFiles/3.10.2/CompilerIdFortran/a.out"
+

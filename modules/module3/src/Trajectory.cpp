@@ -56,3 +56,20 @@ void Trajectory::DrawTrajectory(std::vector<Eigen::Isometry3d, Eigen::aligned_al
         usleep(5000);   // sleep 5 ms
     }
 }
+
+int Trajectory::FileRead(std::string dir, std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> &poses) {
+    std::ifstream fin(dir);
+    if (!fin) {
+        std::cout << "cannot find trajectory file at " << dir << std::endl;
+        return 1;
+    }
+
+    while (!fin.eof()) {
+        double time, tx, ty, tz, qx, qy, qz, qw;
+        fin >> time >> tx >> ty >> tz >> qx >> qy >> qz >> qw;
+        Eigen::Isometry3d Twr(Eigen::Quaterniond(qw, qx, qy, qz));
+        Twr.pretranslate(Eigen::Vector3d(tx, ty, tz));
+        poses.push_back(Twr);
+    }
+    return 0;
+}

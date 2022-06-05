@@ -83,7 +83,7 @@ build cmake_object_order_depends_target_exec_module1: phony || cmake_object_orde
 build CMakeFiles/exec_module1.dir/examples/exec_module1.cpp.o: CXX_COMPILER__exec_module1_Debug /home/user/hello_cmake/examples/exec_module1.cpp || cmake_object_order_depends_target_exec_module1
   DEP_FILE = CMakeFiles/exec_module1.dir/examples/exec_module1.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/user/hello_cmake/modules/module1/include -I/usr/include/opencv
+  INCLUDES = -I/home/user/hello_cmake/modules/module1/include -I/home/user/hello_cmake/thirdparty/OpenCV/install/include/opencv4
   OBJECT_DIR = CMakeFiles/exec_module1.dir
   OBJECT_FILE_DIR = CMakeFiles/exec_module1.dir/examples
 
@@ -95,9 +95,9 @@ build CMakeFiles/exec_module1.dir/examples/exec_module1.cpp.o: CXX_COMPILER__exe
 #############################################
 # Link the executable exec_module1
 
-build exec_module1: CXX_EXECUTABLE_LINKER__exec_module1_Debug CMakeFiles/exec_module1.dir/examples/exec_module1.cpp.o | modules/module1/libmodule1.a /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0 || modules/module1/libmodule1.a
+build exec_module1: CXX_EXECUTABLE_LINKER__exec_module1_Debug CMakeFiles/exec_module1.dir/examples/exec_module1.cpp.o | modules/module1/libmodule1.a ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0 || modules/module1/libmodule1.a
   FLAGS = -g
-  LINK_LIBRARIES = modules/module1/libmodule1.a  /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+  LINK_LIBRARIES = -Wl,-rpath,/home/user/hello_cmake/thirdparty/OpenCV/install/lib  modules/module1/libmodule1.a  ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0
   OBJECT_DIR = CMakeFiles/exec_module1.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -116,7 +116,7 @@ build cmake_object_order_depends_target_exec_module1_module2: phony || cmake_obj
 build CMakeFiles/exec_module1_module2.dir/examples/exec_module1_module2.cpp.o: CXX_COMPILER__exec_module1_module2_Debug /home/user/hello_cmake/examples/exec_module1_module2.cpp || cmake_object_order_depends_target_exec_module1_module2
   DEP_FILE = CMakeFiles/exec_module1_module2.dir/examples/exec_module1_module2.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/user/hello_cmake/modules/module1/include -I/usr/include/opencv -I/home/user/hello_cmake/modules/module2/include
+  INCLUDES = -I/home/user/hello_cmake/modules/module1/include -I/home/user/hello_cmake/thirdparty/OpenCV/install/include/opencv4 -I/home/user/hello_cmake/modules/module2/include
   OBJECT_DIR = CMakeFiles/exec_module1_module2.dir
   OBJECT_FILE_DIR = CMakeFiles/exec_module1_module2.dir/examples
 
@@ -128,9 +128,9 @@ build CMakeFiles/exec_module1_module2.dir/examples/exec_module1_module2.cpp.o: C
 #############################################
 # Link the executable exec_module1_module2
 
-build exec_module1_module2: CXX_EXECUTABLE_LINKER__exec_module1_module2_Debug CMakeFiles/exec_module1_module2.dir/examples/exec_module1_module2.cpp.o | modules/module1/libmodule1.a modules/module2/libmodule2.a /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0 || modules/module1/libmodule1.a modules/module2/libmodule2.a
+build exec_module1_module2: CXX_EXECUTABLE_LINKER__exec_module1_module2_Debug CMakeFiles/exec_module1_module2.dir/examples/exec_module1_module2.cpp.o | modules/module1/libmodule1.a modules/module2/libmodule2.a ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0 || modules/module1/libmodule1.a modules/module2/libmodule2.a
   FLAGS = -g
-  LINK_LIBRARIES = modules/module1/libmodule1.a  modules/module2/libmodule2.a  /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+  LINK_LIBRARIES = -Wl,-rpath,/home/user/hello_cmake/thirdparty/OpenCV/install/lib  modules/module1/libmodule1.a  modules/module2/libmodule2.a  ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0
   OBJECT_DIR = CMakeFiles/exec_module1_module2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -138,45 +138,79 @@ build exec_module1_module2: CXX_EXECUTABLE_LINKER__exec_module1_module2_Debug CM
   TARGET_PDB = exec_module1_module2.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target plotTranjectory
+# Object build statements for EXECUTABLE target plotTrajectory
 
 
 #############################################
-# Order-only phony target for plotTranjectory
+# Order-only phony target for plotTrajectory
 
-build cmake_object_order_depends_target_plotTranjectory: phony || cmake_object_order_depends_target_module3
+build cmake_object_order_depends_target_plotTrajectory: phony || cmake_object_order_depends_target_module3
 
-build CMakeFiles/plotTranjectory.dir/examples/plotTranjectory.cpp.o: CXX_COMPILER__plotTranjectory_Debug /home/user/hello_cmake/examples/plotTranjectory.cpp || cmake_object_order_depends_target_plotTranjectory
+build CMakeFiles/plotTrajectory.dir/examples/plotTrajectory.cpp.o: CXX_COMPILER__plotTrajectory_Debug /home/user/hello_cmake/examples/plotTrajectory.cpp || cmake_object_order_depends_target_plotTrajectory
   DEFINES = -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\"wayland\" -D_LINUX_
-  DEP_FILE = CMakeFiles/plotTranjectory.dir/examples/plotTranjectory.cpp.o.d
+  DEP_FILE = CMakeFiles/plotTrajectory.dir/examples/plotTrajectory.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/user/hello_cmake/modules/module3/include -isystem /usr/include/opencv -isystem /usr/include/eigen3 -isystem /home/user/hello_cmake/thirdparty/pangolin/install/include
-  OBJECT_DIR = CMakeFiles/plotTranjectory.dir
-  OBJECT_FILE_DIR = CMakeFiles/plotTranjectory.dir/examples
+  INCLUDES = -I/home/user/hello_cmake/modules/module3/include -isystem /home/user/hello_cmake/thirdparty/OpenCV/install/include/opencv4 -isystem /home/user/hello_cmake/thirdparty/Eigen3/install/include/eigen3 -isystem /home/user/hello_cmake/thirdparty/pangolin/install/include
+  OBJECT_DIR = CMakeFiles/plotTrajectory.dir
+  OBJECT_FILE_DIR = CMakeFiles/plotTrajectory.dir/examples
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target plotTranjectory
+# Link build statements for EXECUTABLE target plotTrajectory
 
 
 #############################################
-# Link the executable plotTranjectory
+# Link the executable plotTrajectory
 
-build plotTranjectory: CXX_EXECUTABLE_LINKER__plotTranjectory_Debug CMakeFiles/plotTranjectory.dir/examples/plotTranjectory.cpp.o | modules/module3/libmodule3.a /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0 ../thirdparty/pangolin/install/lib/libpango_glgeometry.so ../thirdparty/pangolin/install/lib/libpango_geometry.so ../thirdparty/pangolin/install/lib/libpango_plot.so ../thirdparty/pangolin/install/lib/libpango_python.so ../thirdparty/pangolin/install/lib/libpango_scene.so ../thirdparty/pangolin/install/lib/libpango_tools.so ../thirdparty/pangolin/install/lib/libpango_display.so ../thirdparty/pangolin/install/lib/libpango_vars.so ../thirdparty/pangolin/install/lib/libpango_video.so ../thirdparty/pangolin/install/lib/libpango_packetstream.so ../thirdparty/pangolin/install/lib/libpango_windowing.so ../thirdparty/pangolin/install/lib/libpango_opengl.so ../thirdparty/pangolin/install/lib/libpango_image.so ../thirdparty/pangolin/install/lib/libpango_core.so /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so ../thirdparty/pangolin/install/lib/libtinyobj.so || modules/module3/libmodule3.a
+build plotTrajectory: CXX_EXECUTABLE_LINKER__plotTrajectory_Debug CMakeFiles/plotTrajectory.dir/examples/plotTrajectory.cpp.o | modules/module3/libmodule3.a ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0 ../thirdparty/pangolin/install/lib/libpango_glgeometry.so ../thirdparty/pangolin/install/lib/libpango_geometry.so ../thirdparty/pangolin/install/lib/libpango_plot.so ../thirdparty/pangolin/install/lib/libpango_python.so ../thirdparty/pangolin/install/lib/libpango_scene.so ../thirdparty/pangolin/install/lib/libpango_tools.so ../thirdparty/pangolin/install/lib/libpango_display.so ../thirdparty/pangolin/install/lib/libpango_vars.so ../thirdparty/pangolin/install/lib/libpango_video.so ../thirdparty/pangolin/install/lib/libpango_packetstream.so ../thirdparty/pangolin/install/lib/libpango_windowing.so ../thirdparty/pangolin/install/lib/libpango_opengl.so ../thirdparty/pangolin/install/lib/libpango_image.so ../thirdparty/pangolin/install/lib/libpango_core.so /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so ../thirdparty/pangolin/install/lib/libtinyobj.so || modules/module3/libmodule3.a
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/home/user/hello_cmake/thirdparty/pangolin/install/lib  modules/module3/libmodule3.a  /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0  /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0  ../thirdparty/pangolin/install/lib/libpango_glgeometry.so  ../thirdparty/pangolin/install/lib/libpango_geometry.so  ../thirdparty/pangolin/install/lib/libpango_plot.so  ../thirdparty/pangolin/install/lib/libpango_python.so  ../thirdparty/pangolin/install/lib/libpango_scene.so  ../thirdparty/pangolin/install/lib/libpango_tools.so  ../thirdparty/pangolin/install/lib/libpango_display.so  ../thirdparty/pangolin/install/lib/libpango_vars.so  ../thirdparty/pangolin/install/lib/libpango_video.so  ../thirdparty/pangolin/install/lib/libpango_packetstream.so  ../thirdparty/pangolin/install/lib/libpango_windowing.so  ../thirdparty/pangolin/install/lib/libpango_opengl.so  ../thirdparty/pangolin/install/lib/libpango_image.so  ../thirdparty/pangolin/install/lib/libpango_core.so  -lrt  -lpthread  /usr/lib/x86_64-linux-gnu/libGLEW.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libGLU.so  ../thirdparty/pangolin/install/lib/libtinyobj.so
-  OBJECT_DIR = CMakeFiles/plotTranjectory.dir
+  LINK_LIBRARIES = -Wl,-rpath,/home/user/hello_cmake/thirdparty/OpenCV/install/lib:/home/user/hello_cmake/thirdparty/pangolin/install/lib  modules/module3/libmodule3.a  ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0  ../thirdparty/pangolin/install/lib/libpango_glgeometry.so  ../thirdparty/pangolin/install/lib/libpango_geometry.so  ../thirdparty/pangolin/install/lib/libpango_plot.so  ../thirdparty/pangolin/install/lib/libpango_python.so  ../thirdparty/pangolin/install/lib/libpango_scene.so  ../thirdparty/pangolin/install/lib/libpango_tools.so  ../thirdparty/pangolin/install/lib/libpango_display.so  ../thirdparty/pangolin/install/lib/libpango_vars.so  ../thirdparty/pangolin/install/lib/libpango_video.so  ../thirdparty/pangolin/install/lib/libpango_packetstream.so  ../thirdparty/pangolin/install/lib/libpango_windowing.so  ../thirdparty/pangolin/install/lib/libpango_opengl.so  ../thirdparty/pangolin/install/lib/libpango_image.so  ../thirdparty/pangolin/install/lib/libpango_core.so  -lrt  -lpthread  /usr/lib/x86_64-linux-gnu/libGLEW.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libGLU.so  ../thirdparty/pangolin/install/lib/libtinyobj.so
+  OBJECT_DIR = CMakeFiles/plotTrajectory.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = plotTranjectory
-  TARGET_PDB = plotTranjectory.dbg
+  TARGET_FILE = plotTrajectory
+  TARGET_PDB = plotTrajectory.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || cmake_object_order_depends_target_module4
+
+build CMakeFiles/test.dir/examples/ExecuteProjection.cpp.o: CXX_COMPILER__test_Debug /home/user/hello_cmake/examples/ExecuteProjection.cpp || cmake_object_order_depends_target_test
+  DEFINES = -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\"wayland\" -D_LINUX_
+  DEP_FILE = CMakeFiles/test.dir/examples/ExecuteProjection.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/user/hello_cmake/modules/module4/include -isystem /home/user/hello_cmake/thirdparty/OpenCV/install/include/opencv4 -isystem /home/user/hello_cmake/thirdparty/Eigen3/install/include/eigen3 -isystem /home/user/hello_cmake/thirdparty/pangolin/install/include -isystem /home/user/hello_cmake/thirdparty/json/install/include
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/examples
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test
+
+build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/examples/ExecuteProjection.cpp.o | modules/module4/libmodule4.a ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0 ../thirdparty/pangolin/install/lib/libpango_glgeometry.so ../thirdparty/pangolin/install/lib/libpango_geometry.so ../thirdparty/pangolin/install/lib/libpango_plot.so ../thirdparty/pangolin/install/lib/libpango_python.so ../thirdparty/pangolin/install/lib/libpango_scene.so ../thirdparty/pangolin/install/lib/libpango_tools.so ../thirdparty/pangolin/install/lib/libpango_display.so ../thirdparty/pangolin/install/lib/libpango_vars.so ../thirdparty/pangolin/install/lib/libpango_video.so ../thirdparty/pangolin/install/lib/libpango_packetstream.so ../thirdparty/pangolin/install/lib/libpango_windowing.so ../thirdparty/pangolin/install/lib/libpango_opengl.so ../thirdparty/pangolin/install/lib/libpango_image.so ../thirdparty/pangolin/install/lib/libpango_core.so /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so ../thirdparty/pangolin/install/lib/libtinyobj.so || modules/module4/libmodule4.a
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/user/hello_cmake/thirdparty/OpenCV/install/lib:/home/user/hello_cmake/thirdparty/pangolin/install/lib  modules/module4/libmodule4.a  ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0  ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0  ../thirdparty/pangolin/install/lib/libpango_glgeometry.so  ../thirdparty/pangolin/install/lib/libpango_geometry.so  ../thirdparty/pangolin/install/lib/libpango_plot.so  ../thirdparty/pangolin/install/lib/libpango_python.so  ../thirdparty/pangolin/install/lib/libpango_scene.so  ../thirdparty/pangolin/install/lib/libpango_tools.so  ../thirdparty/pangolin/install/lib/libpango_display.so  ../thirdparty/pangolin/install/lib/libpango_vars.so  ../thirdparty/pangolin/install/lib/libpango_video.so  ../thirdparty/pangolin/install/lib/libpango_packetstream.so  ../thirdparty/pangolin/install/lib/libpango_windowing.so  ../thirdparty/pangolin/install/lib/libpango_opengl.so  ../thirdparty/pangolin/install/lib/libpango_image.so  ../thirdparty/pangolin/install/lib/libpango_core.so  -lrt  -lpthread  /usr/lib/x86_64-linux-gnu/libGLEW.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libGLU.so  ../thirdparty/pangolin/install/lib/libtinyobj.so
+  OBJECT_DIR = CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test
+  TARGET_PDB = test.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug && /snap/clion/190/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug && /snap/clion/193/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -188,7 +222,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug && /snap/clion/190/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug && /snap/clion/193/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -205,7 +239,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build modules/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules && /snap/clion/190/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules && /snap/clion/193/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -217,7 +251,7 @@ build modules/edit_cache: phony modules/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build modules/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules && /snap/clion/190/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules && /snap/clion/193/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -241,7 +275,7 @@ build cmake_object_order_depends_target_module1: phony || modules/module1/CMakeF
 build modules/module1/CMakeFiles/module1.dir/src/ClassMat.cpp.o: CXX_COMPILER__module1_Debug /home/user/hello_cmake/modules/module1/src/ClassMat.cpp || cmake_object_order_depends_target_module1
   DEP_FILE = modules/module1/CMakeFiles/module1.dir/src/ClassMat.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/user/hello_cmake/modules/module1/include -isystem /usr/include/opencv
+  INCLUDES = -I/home/user/hello_cmake/modules/module1/include -isystem /home/user/hello_cmake/thirdparty/OpenCV/install/include/opencv4
   OBJECT_DIR = modules/module1/CMakeFiles/module1.dir
   OBJECT_FILE_DIR = modules/module1/CMakeFiles/module1.dir/src
 
@@ -253,7 +287,7 @@ build modules/module1/CMakeFiles/module1.dir/src/ClassMat.cpp.o: CXX_COMPILER__m
 #############################################
 # Link the static library modules/module1/libmodule1.a
 
-build modules/module1/libmodule1.a: CXX_STATIC_LIBRARY_LINKER__module1_Debug modules/module1/CMakeFiles/module1.dir/src/ClassMat.cpp.o || /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+build modules/module1/libmodule1.a: CXX_STATIC_LIBRARY_LINKER__module1_Debug modules/module1/CMakeFiles/module1.dir/src/ClassMat.cpp.o || ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = modules/module1/CMakeFiles/module1.dir
   POST_BUILD = :
@@ -266,7 +300,7 @@ build modules/module1/libmodule1.a: CXX_STATIC_LIBRARY_LINKER__module1_Debug mod
 # Utility command for edit_cache
 
 build modules/module1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module1 && /snap/clion/190/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module1 && /snap/clion/193/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -278,7 +312,7 @@ build modules/module1/edit_cache: phony modules/module1/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build modules/module1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module1 && /snap/clion/190/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module1 && /snap/clion/193/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -302,7 +336,7 @@ build cmake_object_order_depends_target_module2: phony || modules/module2/CMakeF
 build modules/module2/CMakeFiles/module2.dir/src/ClassEigenMat.cpp.o: CXX_COMPILER__module2_Debug /home/user/hello_cmake/modules/module2/src/ClassEigenMat.cpp || cmake_object_order_depends_target_module2
   DEP_FILE = modules/module2/CMakeFiles/module2.dir/src/ClassEigenMat.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/user/hello_cmake/modules/module2/include -isystem /usr/include/eigen3
+  INCLUDES = -I/home/user/hello_cmake/modules/module2/include -isystem /home/user/hello_cmake/thirdparty/Eigen3/install/include/eigen3
   OBJECT_DIR = modules/module2/CMakeFiles/module2.dir
   OBJECT_FILE_DIR = modules/module2/CMakeFiles/module2.dir/src
 
@@ -327,7 +361,7 @@ build modules/module2/libmodule2.a: CXX_STATIC_LIBRARY_LINKER__module2_Debug mod
 # Utility command for edit_cache
 
 build modules/module2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module2 && /snap/clion/190/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module2 && /snap/clion/193/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -339,7 +373,7 @@ build modules/module2/edit_cache: phony modules/module2/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build modules/module2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module2 && /snap/clion/190/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module2 && /snap/clion/193/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -364,7 +398,7 @@ build modules/module3/CMakeFiles/module3.dir/src/Trajectory.cpp.o: CXX_COMPILER_
   DEFINES = -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\"wayland\" -D_LINUX_
   DEP_FILE = modules/module3/CMakeFiles/module3.dir/src/Trajectory.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/user/hello_cmake/modules/module3/include -isystem /usr/include/opencv -isystem /usr/include/eigen3 -isystem /home/user/hello_cmake/thirdparty/pangolin/install/include
+  INCLUDES = -I/home/user/hello_cmake/modules/module3/include -isystem /home/user/hello_cmake/thirdparty/OpenCV/install/include/opencv4 -isystem /home/user/hello_cmake/thirdparty/Eigen3/install/include/eigen3 -isystem /home/user/hello_cmake/thirdparty/pangolin/install/include
   OBJECT_DIR = modules/module3/CMakeFiles/module3.dir
   OBJECT_FILE_DIR = modules/module3/CMakeFiles/module3.dir/src
 
@@ -376,7 +410,7 @@ build modules/module3/CMakeFiles/module3.dir/src/Trajectory.cpp.o: CXX_COMPILER_
 #############################################
 # Link the static library modules/module3/libmodule3.a
 
-build modules/module3/libmodule3.a: CXX_STATIC_LIBRARY_LINKER__module3_Debug modules/module3/CMakeFiles/module3.dir/src/Trajectory.cpp.o || /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0 ../thirdparty/pangolin/install/lib/libpango_glgeometry.so ../thirdparty/pangolin/install/lib/libpango_plot.so ../thirdparty/pangolin/install/lib/libpango_python.so ../thirdparty/pangolin/install/lib/libpango_scene.so ../thirdparty/pangolin/install/lib/libpango_tools.so ../thirdparty/pangolin/install/lib/libpango_video.so /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0 /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0 ../thirdparty/pangolin/install/lib/libpango_geometry.so ../thirdparty/pangolin/install/lib/libtinyobj.so ../thirdparty/pangolin/install/lib/libpango_display.so ../thirdparty/pangolin/install/lib/libpango_vars.so ../thirdparty/pangolin/install/lib/libpango_windowing.so ../thirdparty/pangolin/install/lib/libpango_opengl.so ../thirdparty/pangolin/install/lib/libpango_image.so ../thirdparty/pangolin/install/lib/libpango_packetstream.so ../thirdparty/pangolin/install/lib/libpango_core.so
+build modules/module3/libmodule3.a: CXX_STATIC_LIBRARY_LINKER__module3_Debug modules/module3/CMakeFiles/module3.dir/src/Trajectory.cpp.o || ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0 ../thirdparty/pangolin/install/lib/libpango_glgeometry.so ../thirdparty/pangolin/install/lib/libpango_plot.so ../thirdparty/pangolin/install/lib/libpango_python.so ../thirdparty/pangolin/install/lib/libpango_scene.so ../thirdparty/pangolin/install/lib/libpango_tools.so ../thirdparty/pangolin/install/lib/libpango_video.so ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0 ../thirdparty/pangolin/install/lib/libpango_geometry.so ../thirdparty/pangolin/install/lib/libtinyobj.so ../thirdparty/pangolin/install/lib/libpango_display.so ../thirdparty/pangolin/install/lib/libpango_vars.so ../thirdparty/pangolin/install/lib/libpango_windowing.so ../thirdparty/pangolin/install/lib/libpango_opengl.so ../thirdparty/pangolin/install/lib/libpango_image.so ../thirdparty/pangolin/install/lib/libpango_packetstream.so ../thirdparty/pangolin/install/lib/libpango_core.so
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = modules/module3/CMakeFiles/module3.dir
   POST_BUILD = :
@@ -389,7 +423,7 @@ build modules/module3/libmodule3.a: CXX_STATIC_LIBRARY_LINKER__module3_Debug mod
 # Utility command for edit_cache
 
 build modules/module3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module3 && /snap/clion/190/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module3 && /snap/clion/193/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -401,12 +435,74 @@ build modules/module3/edit_cache: phony modules/module3/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build modules/module3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module3 && /snap/clion/190/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module3 && /snap/clion/193/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build modules/module3/rebuild_cache: phony modules/module3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/user/hello_cmake/modules/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target module4
+
+
+#############################################
+# Order-only phony target for module4
+
+build cmake_object_order_depends_target_module4: phony || modules/module4/CMakeFiles/module4.dir
+
+build modules/module4/CMakeFiles/module4.dir/src/Projection.cpp.o: CXX_COMPILER__module4_Debug /home/user/hello_cmake/modules/module4/src/Projection.cpp || cmake_object_order_depends_target_module4
+  DEFINES = -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\"wayland\" -D_LINUX_
+  DEP_FILE = modules/module4/CMakeFiles/module4.dir/src/Projection.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/user/hello_cmake/modules/module4/include -isystem /home/user/hello_cmake/thirdparty/OpenCV/install/include/opencv4 -isystem /home/user/hello_cmake/thirdparty/Eigen3/install/include/eigen3 -isystem /home/user/hello_cmake/thirdparty/pangolin/install/include -isystem /home/user/hello_cmake/thirdparty/json/install/include
+  OBJECT_DIR = modules/module4/CMakeFiles/module4.dir
+  OBJECT_FILE_DIR = modules/module4/CMakeFiles/module4.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target module4
+
+
+#############################################
+# Link the static library modules/module4/libmodule4.a
+
+build modules/module4/libmodule4.a: CXX_STATIC_LIBRARY_LINKER__module4_Debug modules/module4/CMakeFiles/module4.dir/src/Projection.cpp.o || ../thirdparty/OpenCV/install/lib/libopencv_gapi.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_highgui.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_ml.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_objdetect.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_photo.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_stitching.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_video.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_videoio.so.4.6.0 ../thirdparty/pangolin/install/lib/libpango_glgeometry.so ../thirdparty/pangolin/install/lib/libpango_plot.so ../thirdparty/pangolin/install/lib/libpango_python.so ../thirdparty/pangolin/install/lib/libpango_scene.so ../thirdparty/pangolin/install/lib/libpango_tools.so ../thirdparty/pangolin/install/lib/libpango_video.so ../thirdparty/OpenCV/install/lib/libopencv_imgcodecs.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_dnn.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_calib3d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_features2d.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_flann.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_imgproc.so.4.6.0 ../thirdparty/OpenCV/install/lib/libopencv_core.so.4.6.0 ../thirdparty/pangolin/install/lib/libpango_geometry.so ../thirdparty/pangolin/install/lib/libtinyobj.so ../thirdparty/pangolin/install/lib/libpango_display.so ../thirdparty/pangolin/install/lib/libpango_vars.so ../thirdparty/pangolin/install/lib/libpango_windowing.so ../thirdparty/pangolin/install/lib/libpango_opengl.so ../thirdparty/pangolin/install/lib/libpango_image.so ../thirdparty/pangolin/install/lib/libpango_packetstream.so ../thirdparty/pangolin/install/lib/libpango_core.so
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = modules/module4/CMakeFiles/module4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = modules/module4/libmodule4.a
+  TARGET_PDB = module4.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build modules/module4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module4 && /snap/clion/193/bin/cmake/linux/bin/ccmake -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build modules/module4/edit_cache: phony modules/module4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build modules/module4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/user/hello_cmake/cmake-build-debug/modules/module4 && /snap/clion/193/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/user/hello_cmake -B/home/user/hello_cmake/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build modules/module4/rebuild_cache: phony modules/module4/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -417,11 +513,15 @@ build libmodule2.a: phony modules/module2/libmodule2.a
 
 build libmodule3.a: phony modules/module3/libmodule3.a
 
+build libmodule4.a: phony modules/module4/libmodule4.a
+
 build module1: phony modules/module1/libmodule1.a
 
 build module2: phony modules/module2/libmodule2.a
 
 build module3: phony modules/module3/libmodule3.a
+
+build module4: phony modules/module4/libmodule4.a
 
 # =============================================================================
 # Folder targets.
@@ -431,14 +531,14 @@ build module3: phony modules/module3/libmodule3.a
 #############################################
 # Folder: /home/user/hello_cmake/cmake-build-debug
 
-build all: phony hello_cmake exec_module1 exec_module1_module2 plotTranjectory modules/all
+build all: phony hello_cmake exec_module1 exec_module1_module2 plotTrajectory test modules/all
 
 # =============================================================================
 
 #############################################
 # Folder: /home/user/hello_cmake/cmake-build-debug/modules
 
-build modules/all: phony modules/module1/all modules/module2/all modules/module3/all
+build modules/all: phony modules/module1/all modules/module2/all modules/module3/all modules/module4/all
 
 # =============================================================================
 
@@ -462,20 +562,27 @@ build modules/module2/all: phony modules/module2/libmodule2.a
 build modules/module3/all: phony modules/module3/libmodule3.a
 
 # =============================================================================
+
+#############################################
+# Folder: /home/user/hello_cmake/cmake-build-debug/modules/module4
+
+build modules/module4/all: phony modules/module4/libmodule4.a
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../modules/CMakeLists.txt ../modules/module1/CMakeLists.txt ../modules/module2/CMakeLists.txt ../modules/module3/CMakeLists.txt ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets-debug.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/share/OpenCV/OpenCVConfig-version.cmake /usr/share/OpenCV/OpenCVConfig.cmake /usr/share/OpenCV/OpenCVModules-release.cmake /usr/share/OpenCV/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../modules/CMakeLists.txt ../modules/module1/CMakeLists.txt ../modules/module2/CMakeLists.txt ../modules/module3/CMakeLists.txt ../modules/module4/CMakeLists.txt ../thirdparty/Eigen3/install/share/eigen3/cmake/Eigen3Config.cmake ../thirdparty/Eigen3/install/share/eigen3/cmake/Eigen3ConfigVersion.cmake ../thirdparty/Eigen3/install/share/eigen3/cmake/Eigen3Targets.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVConfig-version.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVConfig.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVModules-release.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVModules.cmake ../thirdparty/json/install/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake ../thirdparty/json/install/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake ../thirdparty/json/install/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets-debug.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../modules/CMakeLists.txt ../modules/module1/CMakeLists.txt ../modules/module2/CMakeLists.txt ../modules/module3/CMakeLists.txt ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets-debug.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/share/OpenCV/OpenCVConfig-version.cmake /usr/share/OpenCV/OpenCVConfig.cmake /usr/share/OpenCV/OpenCVModules-release.cmake /usr/share/OpenCV/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../modules/CMakeLists.txt ../modules/module1/CMakeLists.txt ../modules/module2/CMakeLists.txt ../modules/module3/CMakeLists.txt ../modules/module4/CMakeLists.txt ../thirdparty/Eigen3/install/share/eigen3/cmake/Eigen3Config.cmake ../thirdparty/Eigen3/install/share/eigen3/cmake/Eigen3ConfigVersion.cmake ../thirdparty/Eigen3/install/share/eigen3/cmake/Eigen3Targets.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVConfig-version.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVConfig.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVModules-release.cmake ../thirdparty/OpenCV/install/lib/cmake/opencv4/OpenCVModules.cmake ../thirdparty/json/install/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake ../thirdparty/json/install/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake ../thirdparty/json/install/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets-debug.cmake ../thirdparty/pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

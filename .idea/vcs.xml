@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/thirdparty/Eigen3/eigen" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/OpenCV/opencv" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/Pangolin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/json" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/pangolin/Pangolin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/pangolin/Pangolin/components/pango_python/pybind11" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/pangolin/Pangolin/scripts/vcpkg" vcs="Git" />

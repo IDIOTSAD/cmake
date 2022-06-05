@@ -1,7 +1,8 @@
 /home/user/hello_cmake/cmake-build-debug/CMakeFiles/hello_cmake.dir
 /home/user/hello_cmake/cmake-build-debug/CMakeFiles/exec_module1.dir
 /home/user/hello_cmake/cmake-build-debug/CMakeFiles/exec_module1_module2.dir
-/home/user/hello_cmake/cmake-build-debug/CMakeFiles/plotTranjectory.dir
+/home/user/hello_cmake/cmake-build-debug/CMakeFiles/plotTrajectory.dir
+/home/user/hello_cmake/cmake-build-debug/CMakeFiles/test.dir
 /home/user/hello_cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/user/hello_cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/user/hello_cmake/cmake-build-debug/modules/CMakeFiles/edit_cache.dir
@@ -15,3 +16,6 @@
 /home/user/hello_cmake/cmake-build-debug/modules/module3/CMakeFiles/module3.dir
 /home/user/hello_cmake/cmake-build-debug/modules/module3/CMakeFiles/edit_cache.dir
 /home/user/hello_cmake/cmake-build-debug/modules/module3/CMakeFiles/rebuild_cache.dir
+/home/user/hello_cmake/cmake-build-debug/modules/module4/CMakeFiles/module4.dir
+/home/user/hello_cmake/cmake-build-debug/modules/module4/CMakeFiles/edit_cache.dir
+/home/user/hello_cmake/cmake-build-debug/modules/module4/CMakeFiles/rebuild_cache.dir

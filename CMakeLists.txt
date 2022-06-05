@@ -20,8 +20,14 @@ target_link_libraries(exec_module1_module2 PRIVATE
         module2
         )
 
-add_executable(plotTranjectory examples/plotTranjectory.cpp)
+add_executable(plotTrajectory examples/plotTrajectory.cpp)
 
-target_link_libraries(plotTranjectory PRIVATE
+target_link_libraries(plotTrajectory PRIVATE
         module3
+        )
+
+add_executable(test examples/ExecuteProjection.cpp)
+
+target_link_libraries(test PRIVATE
+        module4
         )

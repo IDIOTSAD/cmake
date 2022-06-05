@@ -4,15 +4,16 @@
 
 #include "module3/Trajectory.hpp"
 
-void Trajectory::DrawTrajectory(std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> poses) {
+void Trajectory::DrawTrajectory(std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> poses) const {
     // create pangolin window and plot the trajectory
-    pangolin::CreateWindowAndBind("Trajectory Viewer", x, y);
+    std::cout << this->x << '\n';
+    pangolin::CreateWindowAndBind("Trajectory Viewer", this->x, this->y);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     pangolin::OpenGlRenderState s_cam(
-            pangolin::ProjectionMatrix(x, y, 500, 500, 512, 389, 0.1, 1000),
+            pangolin::ProjectionMatrix(this->x, this->y, 500, 500, 512, 389, 0.1, 1000),
             pangolin::ModelViewLookAt(0, -0.1, -1.8, 0, 0, 0, 0.0, -1.0, 0.0)
     );
 
@@ -57,7 +58,7 @@ void Trajectory::DrawTrajectory(std::vector<Eigen::Isometry3d, Eigen::aligned_al
     }
 }
 
-int Trajectory::FileRead(std::string dir, std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> &poses) {
+int Trajectory::FileRead(std::string dir, std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> &poses) const {
     std::ifstream fin(dir);
     if (!fin) {
         std::cout << "cannot find trajectory file at " << dir << std::endl;

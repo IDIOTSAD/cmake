@@ -24,7 +24,7 @@ public:
         file_path = "../trajectory.txt";
     }
     Trajectory(int input_x, int input_y) {
-        if (x > 0 & y > 0) {
+        if (input_x > 0 & input_y > 0) {
             x = input_x;
             y = input_y;
             file_path = "../trajectory.txt";
@@ -42,20 +42,22 @@ public:
         else {
             file_path = dir;
         }
-        if (x > 0 & y > 0) {
+        if (input_x > 0 && input_y > 0) {
+            std::cout << "s" << '\n';
             x = input_x;
             y = input_y;
         }
         else {
+            std::cout << "n" << '\n';
             x = 1024;
             y = 768;
         }
     }
-    std::string GetFilePath() {
-        return file_path;
+    std::string GetFilePath() const {
+        return this->file_path;
     }
-    void DrawTrajectory(std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> poses);
-    int FileRead(std::string dir, std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> &poses);
+    void DrawTrajectory(std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> poses) const;
+    int FileRead(const std::string dir, std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> &poses) const;
 };
 
 #endif //HELLO_CMAKE_DRAWTRAJECTORY_HPP

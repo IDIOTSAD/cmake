@@ -1,7 +1,9 @@
-/snap/clion/190/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/190/bin/ninja/linux/ninja -G Ninja -S /home/user/hello_cmake -B /home/user/hello_cmake/cmake-build-debug
--- *OpenCVFound!-/usr/share/OpenCV
--- *Eigen3Found!-/usr/lib/cmake/eigen3
--- *Eigen3Found!-/usr/lib/cmake/eigen3
+/snap/clion/193/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/193/bin/ninja/linux/ninja -G Ninja -S /home/user/hello_cmake -B /home/user/hello_cmake/cmake-build-debug
+-- *OpenCVFound!-/home/user/hello_cmake/thirdparty/OpenCV/install/lib/cmake/opencv4
+-- *Eigen3Found!-/home/user/hello_cmake/thirdparty/Eigen3/install/share/eigen3/cmake
+-- *Eigen3Found!-/home/user/hello_cmake/thirdparty/Eigen3/install/share/eigen3/cmake
+-- *PangolinFound!-/home/user/hello_cmake/thirdparty/pangolin/install/lib/cmake/Pangolin
+-- *Eigen3Found!-/home/user/hello_cmake/thirdparty/Eigen3/install/share/eigen3/cmake
 -- *PangolinFound!-/home/user/hello_cmake/thirdparty/pangolin/install/lib/cmake/Pangolin
 -- Configuring done
 -- Generating done

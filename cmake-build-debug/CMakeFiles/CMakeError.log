@@ -1,11 +1,11 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/user/hello_cmake/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/snap/clion/190/bin/ninja/linux/ninja cmTC_7fe85 && [1/2] Building CXX object CMakeFiles/cmTC_7fe85.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_7fe85
-FAILED: cmTC_7fe85 
-: && /usr/bin/c++   CMakeFiles/cmTC_7fe85.dir/src.cxx.o -o cmTC_7fe85   && :
-CMakeFiles/cmTC_7fe85.dir/src.cxx.o: In function `main':
+Run Build Command(s):/snap/clion/193/bin/ninja/linux/ninja cmTC_08295 && [1/2] Building CXX object CMakeFiles/cmTC_08295.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_08295
+FAILED: cmTC_08295 
+: && /usr/bin/c++   CMakeFiles/cmTC_08295.dir/src.cxx.o -o cmTC_08295   && :
+CMakeFiles/cmTC_08295.dir/src.cxx.o: In function `main':
 src.cxx:(.text+0x3e): undefined reference to `pthread_create'
 src.cxx:(.text+0x4a): undefined reference to `pthread_detach'
 src.cxx:(.text+0x56): undefined reference to `pthread_cancel'
@@ -39,10 +39,10 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/user/hello_cmake/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/snap/clion/190/bin/ninja/linux/ninja cmTC_6f478 && [1/2] Building CXX object CMakeFiles/cmTC_6f478.dir/CheckFunctionExists.cxx.o
-[2/2] Linking CXX executable cmTC_6f478
-FAILED: cmTC_6f478 
-: && /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_6f478.dir/CheckFunctionExists.cxx.o -o cmTC_6f478  -lpthreads && :
+Run Build Command(s):/snap/clion/193/bin/ninja/linux/ninja cmTC_cfc6a && [1/2] Building CXX object CMakeFiles/cmTC_cfc6a.dir/CheckFunctionExists.cxx.o
+[2/2] Linking CXX executable cmTC_cfc6a
+FAILED: cmTC_cfc6a 
+: && /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_cfc6a.dir/CheckFunctionExists.cxx.o -o cmTC_cfc6a  -lpthreads && :
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.
